@@ -1,0 +1,677 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background: url(/imagens/img-fundo.png);
+}
+
+header {
+    height: 60px;
+    background-color: rgb(255, 187, 0);
+}
+
+ /* EFEITO MARCADOR */
+ span {
+    background-color: rgb(255, 187, 0)
+}
+
+/* DIV que contempla elementos dentro do header */
+.container {
+    display: flex;
+    align-items: center;
+}
+
+/* imagem da logo */
+.img-logo {
+    width: 60px;
+    margin-left: 600%;
+    border-radius: 50%;
+}
+
+/* DIV do texto da logo */
+.div-text-logo {
+    width: 180px;
+    height: 26px;
+    margin-left: 6%;
+    border-radius: 20px;
+    background-color: black;
+}
+
+/* título do site ao lado da logo */
+.text-logo {
+    display: flex;
+    margin-left: 6%;
+    color: rgb(255, 255, 255);
+}  
+
+/* DIV do botão cadastrar */
+.div-btn-cadastrar {
+    margin-left: 60%;
+}
+
+/* personalização do botão cadastrar */
+.btn-cadastrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 48px;
+    margin-bottom: 5px;
+    color: white;
+    border: 0;
+    border-radius: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:larger;
+    background-color: black;
+    
+}
+
+/* personalização do botão quando se passa o cursor */
+button:hover {
+    background-color: rgb(255, 241, 241);
+    color: rgb(0, 0, 0);
+}
+
+/* retirada da marcação dos links de todas as tags a com adição da cor branca na fonte dos mesmos */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* criação nav de menu horizontal */
+.nav-menu-horizontal {
+    height: 38px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+
+.container-menu-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 6px;
+    color: white;
+}
+
+/* posicionamento de quadros da página inicial */
+.quadros-noticias{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+
+/* rgb(255, 4, 4) */
+.hr-topo {
+    position: absolute;
+    left: 309px;
+    background-color: rgb(255, 187, 0);
+    width: 1265px;
+    top: 110px;
+    height: 2px;
+    border: none;
+}
+
+.recentes {
+    display: flex;
+    position: absolute;
+    left: 310px;
+    top: 118px;
+    font-size:x-large;
+    border: solid #1d2225;
+}
+
+/* personalização dos quadros da página inicial */
+.quadros-noticias div div {
+    display: flex;
+    width: 400px;
+    height: 700px;
+    border-radius: 20px;
+    margin-left: 30px;
+    border-style: solid;
+    border-color: rgb(255, 187, 0);
+}
+
+.quadros-noticias a {
+    display: flex;
+    height: 30px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 630px;
+    border-radius: 20px;
+    margin-left: 120px;
+    border-style: solid;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border: none;
+}
+
+/* IMAGENS QUADROS */
+.primeiro-quadro {
+    background: url(/imagens/quadro1.jpeg);
+}
+
+.saiba-mais-quadro1 {
+    display: flex;
+    position: absolute;
+    bottom: 75px;
+    margin-left: 115px;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+.segundo-quadro {
+    background: url(/imagens/quadro2.jpeg);
+ 
+}
+
+.terceiro-quadro {
+    background: url(/imagens/quadro3.jpeg);
+}
+/* FIM IMAGENS QUADRO */
+
+
+/* INICIO PÁGINA POLÍTICA */
+.menu-politica, .menu-tecnologia{
+    display: flex;
+    position: absolute;
+    left: 310px;
+    top: 130px;
+    font-size:x-large;
+    border: solid #1d2225;
+}
+
+.data, .hora {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 180px;
+    height: 30px;
+    margin-top: 160px;
+    left: 18%;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+}
+
+.hora {
+    width: 70px;
+    top: 130px;
+    left: 24%;
+}
+
+.titulo {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 340px;
+    height: 40px;
+    margin-top: 160px;
+    left: 44%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    border-radius: 20px;
+}
+
+.container-pagina-politica {
+    width: 800px;
+    height: 140vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 230px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+.container-pagina-tecnologia {
+    width: 800px;
+    height: 140vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: 30%;
+    margin-top: 230px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+#titulo-tecnologia {
+    width: 500px;
+    left: 40%;
+}
+
+.apresentacao {
+    display: flex;
+    position: relative; 
+    width: 600px;
+    height: 350px;
+    margin-top: 200px;
+    border: #ffbb00;
+    border-style: solid;
+    left: 35%;
+    border-radius: 20px;
+}
+
+.hr-apresentacao {
+    display: flex;
+    position: absolute;
+    right: 340px;
+    background-color: rgb(255, 187, 0);
+    width: 1265px;
+    height: 2px;
+    border: none;
+    left: 309px;
+    margin-top: 115px;
+}
+
+.autora {
+    display: flex;
+    position: absolute;
+    top: 1030px;
+    left: 310px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    border: solid #1d2225;
+}
+
+.autora-foto {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    background: url(/imagens/foto-autora.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+    left: 30%;
+    margin: 30px;
+}
+
+.autora-descricao {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    margin-top: 230px;
+    left: 19%;
+}
+
+/* PÁGINA DE FORMULÁRIO DE CADASTRO */
+.container-cadastro {
+    display: flex;
+    width: 600px;
+    height: 90vh;
+    bottom: 30px;
+}
+
+h2 {
+    color: white;
+    position: absolute;
+    left: 36%;
+    margin-top: 200px;
+    
+}
+
+/* personalização div que contém elementos do formulário de cadastro */
+.cadastro {
+    width: 600px;
+    height: 800px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    position: absolute;
+    left: 33%;
+    border-radius: 20px;
+    top: 120px;
+    margin: auto;
+}
+
+.elementos-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: calc(800px - 665px);
+    margin-top: 60px;
+}
+
+label {
+    display: flex;
+    position: relative;
+    right: 143px;
+    margin-top: 20px;
+    color: white;
+}
+
+input {
+    width: 340px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+}
+
+input::placeholder {
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.container-btn-cadastrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.form-btn-cadastrar {
+    width: 150px;
+    height: 48px;
+    margin-bottom: 5px;
+    color: rgb(0, 0, 0);
+    border: 0;
+    border-radius: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:larger;
+    background-color: rgb(255, 255, 255);
+}
+
+.form-btn-cadastrar:hover {
+    background-color: rgb(71, 70, 70);
+}
+
+/* INÍCIO PERSONALIZAÇÃO PÁGINA VÍDEO */
+.container-video {
+    display: flex;
+    width: 1000px;
+    height: 80vh;
+    bottom: 30px;
+}
+
+.aba-video {
+    display: flex;
+    position: absolute;
+    left: 310px;
+    top: 120px;
+    font-size:x-large;
+    border: solid #1d2225;
+}
+
+.container-videos {
+    width: 600px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    position: absolute;
+    left: 35%;
+    border-radius: 20px;
+    top: 300px;
+    margin: auto;
+}
+
+.videos {
+    display: flex;
+    position: absolute;
+    padding-top: 40px;
+    left: 3.5%;
+    margin: auto;
+}
+
+/* INÍCIO DA PERSONALIZAÇÃO DA PÁGINA SOBRE NÓS */
+.container-sobre {
+    display: flex;
+    position: relative;
+    width: 800px;
+    height: 52vh;
+    margin: auto;
+    top: 80px;
+    padding: 20px;
+    border: solid black;
+    border-radius: 20px;
+    margin-bottom: 100px;        
+}
+
+.sobre-nos {
+    display: flex;
+    position: absolute;
+    left: 310px;
+    top: 120px;
+    font-size:x-large;
+    border: solid #1d2225;
+}
+
+p {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+}
+
+.container-contato {
+    display: flex;
+    position: relative;
+    width: 800px;
+    height: 52vh;
+    margin: auto;
+    top: 80px;
+    padding: 20px;
+    border: solid black;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+.contato {
+    display: flex;
+    position: absolute;
+    left: 310px;
+    top: 120px;
+    font-size:x-large;
+    border: solid #1d2225;
+ 
+}
+
+.div-contato {
+    display: flex;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+.pagina-contato {
+    margin-top: 80px;
+}
+
+.pagina-contato div {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+.pagina-contato a {
+    color: black;
+    padding-left: 20px;
+    font-size: larger;
+}
+
+.hr-localizacao {
+    display: flex;
+    position: relative;
+    right: 340px;
+    background-color: rgb(255, 187, 0);
+    width: 1265px;
+    height: 2px;
+    border: none;
+    left: 309px;
+    margin-top: 115px;
+}
+
+.localizacao {
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 310px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+.mapa {
+    margin-top: 40px;
+    margin-left: 120px;
+
+}
+
+.rodape {
+    display: flex;
+    position: absolute;
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;  
+    background-color: #1d2225;
+}
+
+.logo-texto {
+    position: absolute;
+    padding: 90px;
+}
+
+.div-text-logo-rodape {
+    display: flex;
+    position: absolute;
+    margin-top: 102px;
+    width: 180px;
+    height: 26px;
+    left: 836px;
+    border-radius: 20px;
+    background-color: black;
+    
+}
+
+/* título do site ao lado da logo */
+.text-logo-rodape {
+    display: flex;
+    margin-left: 6%;
+    color: rgb(255, 255, 255);
+   
+}  
+
+.img-logo-rodape {
+    display: flex;
+    position: absolute;
+    left: 880px;
+    width: 95px;
+    border-radius: 50%;
+}
+
+.primeiro-hr-rodape {
+    position: absolute;
+    background-color: rgb(255, 187, 0);
+    width: 300px;
+    margin-top: 283px;
+    left: 310px;
+    height: 2px;
+    border: none;
+}
+
+.segundo-hr-rodape {
+    position: absolute;
+    background-color: rgb(255, 187, 0);
+    width: 300px;
+    margin-top: 283px;
+    left: 780px;
+    height: 2px;
+    border: none;
+}
+
+.terceiro-hr-rodape {
+    position: absolute;
+    background-color: rgb(255, 187, 0);
+    width: 300px;
+    margin-top: 283px;
+    right: 310px;
+    height: 2px;
+    border: none;
+}
+
+.container-menu-horizontal-rodape {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    margin-top: 290px;
+    left: 310px;
+}
+
+.container-terceiro-hr-rodape {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    margin-top: 290px;
+    left: 1245px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: white;
+}
+
+.redes-sociais-rodape a{
+    position: absolute;
+    left: 726px;
+    margin-top: 290px;
+    width: 50px;
+}
+
+.redes-sociais-rodape img {
+    width: 50px;
+}
+
+.img-email {
+    margin-left: 60px;
+}
+
+.img-facebook {
+    margin-left: 120px;
+}
+
+.img-instagram {
+    margin-left: 180px;
+}
+
+.img-twitter {
+    margin-left: 240px;
+}
+
+.img-youtube {
+    margin-left: 300px;
+}
+
+.hr-footer {
+    display: flex;
+    position: absolute;
+    right: 340px;
+    background-color: rgb(255, 255, 255);
+    width: 1265px;
+    height: 2px;
+    border: none;
+    left: 309px;
+    margin-top: 450px;
+}
+
+.frase-rodape {
+    display: flex;
+    position: absolute;
+    margin-top: 455px;
+    left: 850px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+}
