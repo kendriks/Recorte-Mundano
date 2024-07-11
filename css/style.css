@@ -167,7 +167,7 @@ a {
 .hora {
     width: 70px;
     top: 130px;
-    left: 400px;
+    right: 80%;
 }
 
 .titulo {
