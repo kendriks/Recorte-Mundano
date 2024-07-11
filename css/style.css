@@ -101,7 +101,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 20px;
     
 }
 
@@ -134,6 +134,18 @@ a {
     margin-left: 30px;
     border-style: solid;
     border-color: rgb(255, 187, 0);
+}
+
+.primeiro-quadro {
+    top: 20px;
+}
+
+.segundo-quadro {
+    margin-top: 50px;
+}
+
+.terceiro-quadro {
+    padding-top: 50px;
 }
 
 /*
@@ -291,6 +303,7 @@ a {
     border: solid #1d2225;
 }
 
+/*
 .autora-foto {
     position: absolute;
     width: 190px;
@@ -300,7 +313,7 @@ a {
     border-radius: 50%;
     left: 30%;
     margin: 30px;
-}
+}*/
 
 .autora-descricao {
     position: absolute;
