@@ -159,7 +159,7 @@ a {
     width: 180px;
     height: 30px;
     margin-top: 160px;
-    right: 80%;
+    margin-right: 80%;
     font-family: 'Times New Roman', Times, serif;
     border-radius: 20px;
 }
@@ -202,7 +202,6 @@ a {
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     margin-left: 30%;
     margin-top: 230px;
     padding-left: 20px;
