@@ -153,10 +153,10 @@ a {
     border: none;
 }
 
-/* IMAGENS QUADROS */
+/* IMAGENS QUADROS 
 .primeiro-quadro {
     background: url(/quadro1.jpeg);
-}
+}*/
 
 .saiba-mais-quadro1 {
     display: flex;
@@ -167,15 +167,15 @@ a {
     font-family: 'Times New Roman', Times, serif;
     font-size: xx-large;
 }
-
+/*
 .segundo-quadro {
     background: url(/quadro2.jpeg);
  
 }
 
 .terceiro-quadro {
-    background: url(/quadro3.jpeg
-}
+    background: url(/quadro3.jpeg);
+}*/
 /* FIM IMAGENS QUADRO */
 
 
