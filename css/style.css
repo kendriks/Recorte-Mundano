@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url(/img-fundo.png);
+    background: url(img-fundo.png);
 }
 
 header {
@@ -155,7 +155,7 @@ a {
 
 /* IMAGENS QUADROS */
 .primeiro-quadro {
-    background: url(/quadro1.jpeg);
+    background: url(quadro1.jpeg);
 }
 
 .saiba-mais-quadro1 {
@@ -169,12 +169,12 @@ a {
 }
 
 .segundo-quadro {
-    background: url(/quadro2.jpeg);
+    background: url(quadro2.jpeg);
  
 }
 
 .terceiro-quadro {
-    background: url(/quadro3.jpeg);
+    background: url(quadro3.jpeg);
 }
 /* FIM IMAGENS QUADRO */
 
@@ -294,7 +294,7 @@ a {
     position: absolute;
     width: 190px;
     height: 190px;
-    background: url(/foto-autora.jpeg);
+    background: url(foto-autora.jpeg);
     background-size: cover;
     border-radius: 50%;
     left: 30%;
