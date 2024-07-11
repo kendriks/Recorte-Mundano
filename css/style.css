@@ -136,7 +136,7 @@ a {
 }
 
 
-.segundo-quadro, .segundo-quadro, .terceiro-quadro {
+.primeiro-quadro, .segundo-quadro, .terceiro-quadro {
     margin-top: 50px;
 }
 
@@ -293,6 +293,17 @@ a {
     font-family: 'Times New Roman', Times, serif;
     font-size: x-large;
     border: solid #1d2225;
+}
+
+#imagem-autora {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    background: url(foto-autora.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+    left: 30%;
+    margin: 30px;
 }
 
 /*
