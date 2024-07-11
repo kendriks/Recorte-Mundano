@@ -132,20 +132,12 @@ a {
     height: 700px;
     border-radius: 20px;
     margin-left: 30px;
-    border-style: solid;
-    border-color: rgb(255, 187, 0);
+    border-style: none;
 }
 
-.primeiro-quadro {
-    top: 20px;
-}
 
-.segundo-quadro {
+.segundo-quadro, .segundo-quadro, .terceiro-quadro {
     margin-top: 50px;
-}
-
-.terceiro-quadro {
-    padding-top: 50px;
 }
 
 /*
