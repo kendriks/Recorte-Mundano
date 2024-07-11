@@ -136,6 +136,7 @@ a {
     border-color: rgb(255, 187, 0);
 }
 
+/*
 .quadros-noticias a {
     display: flex;
     height: 30px;
@@ -151,14 +152,14 @@ a {
     color: rgb(0, 0, 0);
     background-color: white;
     border: none;
-}
+}*/
 
 /* IMAGENS QUADROS 
 .primeiro-quadro {
     background: url(/quadro1.jpeg);
 }*/
 
-.saiba-mais-quadro1 {
+/*.saiba-mais-quadro1 {
     display: flex;
     position: absolute;
     bottom: 75px;
